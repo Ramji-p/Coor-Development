@@ -375,6 +375,8 @@ public class BaseClass {
 		promptd.dismiss();
 	}
 	
-	
+	public void close(){
+		driver.close();
+	}
 
 }
